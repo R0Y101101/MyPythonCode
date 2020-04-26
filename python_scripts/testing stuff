@@ -1,0 +1,5 @@
+def check_guess(guess, answer):
+global score
+if guess == answer:
+print('Correct answer')
+score = score + 1
